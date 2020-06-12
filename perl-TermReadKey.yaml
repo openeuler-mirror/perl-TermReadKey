@@ -1,0 +1,5 @@
+version_control: metacpan
+src_repo: TermReadKey
+tag_prefix: "^v"
+seperator: "."
+
