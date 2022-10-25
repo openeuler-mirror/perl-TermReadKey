@@ -1,10 +1,12 @@
-Name:           perl-TermReadKey
+%define mod_name TermReadKey
+
+Name:           perl-%{mod_name}
 Version:        2.38
 Release:        2
 Summary:        A perl module for simple terminal control
 License:        (Copyright only) and (Artistic or GPL+)
-URL:            https://metacpan.org/release/TermReadKey
-Source0:        https://cpan.metacpan.org/authors/id/J/JS/JSTOWE/TermReadKey-%{version}.tar.gz
+URL:            https://metacpan.org/release/%{mod_name}
+Source0:        https://cpan.metacpan.org/authors/id/J/JS/JSTOWE/%{mod_name}-%{version}.tar.gz
 # Build
 BuildRequires:  coreutils, findutils, gcc, make
 BuildRequires:  perl-devel
